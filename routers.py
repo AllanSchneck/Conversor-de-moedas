@@ -26,9 +26,7 @@ def converter(
 
 
 
-#Welcome to Alpha Vantage! 
-# Your API key is: H8W6VSU98UHBX2MQ. 
-# Please record this API key at a safe place for future data access.
+
 
 
 
