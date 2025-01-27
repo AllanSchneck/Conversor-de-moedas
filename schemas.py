@@ -49,5 +49,3 @@ class ConverterOutput(BaseModel):
 
     
 
-
-#para trabalharmos com output iremos usar este cara aqui como referência untitled-1.json
