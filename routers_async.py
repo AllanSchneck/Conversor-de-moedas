@@ -27,7 +27,7 @@ async def async_converter_router(
             price=price
         )
         corroutines.append(coro)
-        # percebe que agora nós conseguimos colocar em uma lista todas as corrotinas que precisam ser executadar?
+        # Agora nós conseguimos colocar em uma lista todas as corrotinas que precisam ser executadas
         # e como que eu faço para adicionar elas em um EVENT LOOP para performar essas tasks? 
         # e executar todas as corrotinas juntas
         # para isso vamos usar o gather
