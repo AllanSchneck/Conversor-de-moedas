@@ -40,7 +40,7 @@ async def async_converter_router(
 
 
 @router_async.get('/async/v2/{from_currency}', response_model=ConverterOutput) # este converterOutput como response_model
-# não muda absolutamente nada no nosso código porém sim na documentação em no status code 200 que indicara que esperamos 
+# não muda absolutamente nada no nosso código porém sim na documentação no status code 200 que indicara que esperamos 
 # uma lista de dicionario com o sucesso do request e uma mensagem
 async def converter(
     body: ConverterInput,
